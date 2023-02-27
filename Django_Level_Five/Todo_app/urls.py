@@ -6,5 +6,5 @@ app_name = 'Todo_app'
 
 urlpatterns = [
     path('create/', views.add, name='create'),
-    path('show/', views.show, name='show'),
+    path('shows/', views.show, name='show'),
 ]
